@@ -1,0 +1,36 @@
+{
+  "code-runner.executorMap": {
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+  },
+
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  },
+
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/jdk-17.0.8.1+1",
+      "default": true
+    }
+  ],
+
+  "code-runner.clearPreviousOutput": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.runInTerminal": true,
+  "editor.fontSize": 16,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.snippetSuggestions": "inline",
+
+  "editor.linkedEditing": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.autofetch": true,
+  "git.fetchOnPull": true,
+  "git.verboseCommit": true,
+  "search.useGlobalIgnoreFiles": true,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always"
+}

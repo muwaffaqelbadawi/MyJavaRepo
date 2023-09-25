@@ -1,5 +1,3 @@
-package problem_solving.longestSubstringWithoutRepeatingCharacter;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -8,8 +6,8 @@ class Solution {
         int left = 0;
         int right = 0;
         int longestSubstring = 0;
-
         Set<Character> uniqueChar = new HashSet<>();
+
         while (right < s.length()) {
             if (!uniqueChar.contains(s.charAt(right))) {
                 uniqueChar.add(s.charAt(right));
