@@ -1,6 +1,6 @@
 {
   "code-runner.executorMap": {
-    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt"
   },
 
   "[java]": {
@@ -32,5 +32,6 @@
   "git.verboseCommit": true,
   "search.useGlobalIgnoreFiles": true,
   "git.enableSmartCommit": true,
-  "git.openRepositoryInParentFolders": "always"
+  "git.openRepositoryInParentFolders": "always",
+  "java.jdt.ls.java.home": "/usr/lib/jvm/jdk-17.0.8.1+1"
 }

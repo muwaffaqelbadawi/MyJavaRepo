@@ -1,12 +1,16 @@
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
+class LengthSolution {
+
+    // This is the function
     public int lengthOfLongestSubstring(String s) {
         int left = 0;
         int right = 0;
         int longestSubstring = 0;
         Set<Character> uniqueChar = new HashSet<>();
+
+        
 
         while (right < s.length()) {
             if (!uniqueChar.contains(s.charAt(right))) {
