@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile and run",
+      "type": "shell",
+      "command": "",
+      "args": [
+        "javac",
+        "${fileDirname}/${fileBasename}",
+        "&&",
+        "java",
+        "${fileDirname}/${fileBasenameNoExtension}",
+        "<",
+        "${relativeFileDirname}/input.txt",
+        ">",
+        "${relativeFileDirname}/output.txt"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
