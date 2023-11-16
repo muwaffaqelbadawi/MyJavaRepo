@@ -3,6 +3,11 @@
   "tasks": [
     {
       "label": "compile and run",
+      "presentation": {
+        "reveal": "silent",
+        "revealProblems": "onProblem",
+        "close": true
+      },
       "type": "shell",
       "command": "",
       "args": [
